@@ -30,7 +30,6 @@ serving, monitoring and documentation.
 `scripts/make_synthetic.py` generates fake data in the same format to smoke-test the code. Never report numbers from it.
 
 ## Results
-Fill in from `results.json` after your real run:
 
 | Model | Val RMSE | Test RMSE | NASA score | Maintenance cost |
 |---|---|---|---|---|
