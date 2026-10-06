@@ -1,0 +1,29 @@
+{
+  "results": {
+    "ridge_baseline": {
+      "val_rmse": 17.58590589406859,
+      "test_rmse": 15.909766781658636,
+      "test_nasa_score": 424.9413315457396,
+      "test_cost": 43.76919246265422
+    },
+    "xgboost": {
+      "val_rmse": 12.318373225699835,
+      "test_rmse": 10.79469632795227,
+      "test_nasa_score": 167.1362643688694,
+      "test_cost": 23.425632195472716
+    },
+    "lstm": {
+      "val_rmse": 19.458702738842973,
+      "test_rmse": 19.41682282132253,
+      "test_nasa_score": 1319.4903862611543,
+      "test_cost": 54.413454580307004
+    }
+  },
+  "serving_model": "xgboost",
+  "best_by_val": "xgboost",
+  "conformal_q": 24.0,
+  "interval_coverage_test": 0.97,
+  "target_coverage": 0.9,
+  "rmse_reduction_pct": 32.15050555991309,
+  "cost_reduction_pct": 46.47917661386948
+}
